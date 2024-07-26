@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AccountManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CategoryManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DangNhap.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProductManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoleManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewProductPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EditOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ForgotPass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RegisterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ResetPassWindown.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AccountManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CategoryManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DangNhap.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProfilePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoleManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewProductPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EditOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ForgotPass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OrderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ResetPassWindown.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

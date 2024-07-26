@@ -1,0 +1,44 @@
+﻿<Window x:Class="HShopAPP.View.AdminManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HShopAPP.View"
+        mc:Ignorable="d"
+        Title="Admin Management" Height="450" Width="800" Icon="E:\\.Net\\HShop\\HShopAPP\\Image\\logo.png"
+WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Background="#2D2D2D">
+            <Button Click="AccountButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="QL Tài khoản" Foreground="White" Padding="10"/>
+            </Button>
+            <Button Click="CategoryButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="QL Loại sản phẩm" Foreground="White" Padding="10"/>
+            </Button>
+            <Button Click="ProductButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="QL Sản phẩm" Foreground="White" Padding="10"/>
+            </Button>
+            <Button Click="OrderButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="QL Đơn hàng" Foreground="White" Padding="10"/>
+            </Button>
+            <Button Click="RoleButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="QL Quyền" Foreground="White" Padding="10"/>
+            </Button>
+
+            <Button Click="LogoutButton_Click" Style="{StaticResource SidebarButtonStyle}">
+                <TextBlock Text="Đăng xuất" Foreground="White" Padding="10"/>
+            </Button>
+        </StackPanel>
+
+        <Frame x:Name="MainFrame" Grid.Column="1">
+            <Frame.Background>
+                <ImageBrush ImageSource="E:\.Net\HShop\HShopAPP\Image\home0.png" Stretch="UniformToFill"/>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+</Window>

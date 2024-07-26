@@ -1,0 +1,41 @@
+﻿<Window x:Class="HShopAPP.View.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HShopAPP.View"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800"
+        Icon="E:\\.Net\\HShop\\HShopAPP\\Image\\logo.png"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" Background="#74b9ff">
+        <StackPanel Grid.Column="0" Background="#74b9ff" >
+            <Button Click="ViewButton_Click" Style="{StaticResource SidebarButtonStyle}" Background="#FF3494D4">
+                <TextBlock Text="Mua Hàng" Foreground="White" Padding="10"/>
+            </Button>
+                <Button Click="OrderButton_Click" Style="{StaticResource SidebarButtonStyle}" Background="#FF3494D4">
+                    <TextBlock Text="Đơn Hàng" Foreground="White" Padding="10"/>
+                </Button>
+                <Button Click="ProfileButton_Click" Style="{StaticResource SidebarButtonStyle}" Background="#FF3494D4">
+               <TextBlock Text="Tài khoản" Foreground="White" Padding="10"/>
+                </Button>
+
+                <Button Click="LogoutButton_Click" Style="{StaticResource SidebarButtonStyle}" Background="#FF3494D4">
+                <TextBlock Text="Đăng Xuất" Foreground="White" Padding="10"/>
+            </Button>
+        </StackPanel>
+        </Border>
+
+        <Frame x:Name="MainFrame" Grid.Column="1">
+            <Frame.Background>
+                <ImageBrush ImageSource="E:\.Net\HShop\HShopAPP\Image\water.jpg" Stretch="UniformToFill"/>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+</Window>
